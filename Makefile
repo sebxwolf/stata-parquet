@@ -28,7 +28,7 @@ CFLAGS = -Wall -O3 $(OSFLAGS) $(UFLAGS)
 INCLUDE = /usr/local/include
 LIBS = /usr/local/lib64
 PARQUET = -I$(INCLUDE) -L$(LIBS) -larrow -lparquet
-STATA = ${HOME}/.local/stata13/stata
+STATA = data/stata15/stata
 STATARUN = LD_LIBRARY_PATH=$(LIBS) ${STATA}
 
 # ---------------------------------------------------------------------
